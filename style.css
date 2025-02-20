@@ -1,0 +1,94 @@
+body { 
+    background-color: #f4f4f4;
+    color: #333;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.big-title {
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+#editor {
+    border-radius: 50%;
+    display: block;
+    width: 140px;
+    height: 140px;
+    object-fit: cover;
+    margin: 0 auto 10px auto;
+    border: 4px solid #fff;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+.divpremier {
+    background-color: rgb(249, 247, 245);
+    padding: 40px;
+    text-align: center;
+    border-radius: 10px;
+    margin: 20px auto;
+    max-width: 800px;
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.1);
+}
+
+.section-container {
+    max-width: 900px;
+    margin: 30px auto;
+    padding: 10px;
+}
+
+.card {
+    text-align: center;
+    background: white;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.15);
+    margin-bottom: 20px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.card h1 {
+    text-align: center;
+    font-size: 22px;
+    color: #4A90E2;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+
+.card p {
+    text-align: center;
+    font-size: 16px;
+    color: #444;
+    line-height: 1.5;
+    text-align: justify;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+    margin-top: 20px;
+}
+
+ul li {
+    display: inline-block;
+    margin: 0 10px;
+    font-size: 18px;
+}
+
+.fa-brands, .fa-solid {
+    color: #a01659;
+    transition: color 0.3s ease;
+}
+
+.fa-brands:hover, .fa-solid:hover {
+    color: #2b65c0;
+}
